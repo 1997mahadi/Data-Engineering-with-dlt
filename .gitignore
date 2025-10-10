@@ -1,0 +1,76 @@
+# -----------------------------
+# Python
+# -----------------------------
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+**/__pycache__/
+
+# -----------------------------
+# Virtual Environments
+# -----------------------------
+.venv/
+venv/
+**/.venv/
+env/
+ENV/
+
+# -----------------------------
+# Jupyter Notebooks
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# OS & Editor Junk
+# -----------------------------
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# VSCode config (optional)
+.vscode/
+
+# -----------------------------
+# Secrets & Environment Files
+# -----------------------------
+.env
+.env.*
+<<<<<<< HEAD
+#secrets.toml
+#config.toml
+#.dlt_secrets/
+=======
+secrets.toml
+config.toml
+.dlt_secrets/
+>>>>>>> be4d246 (Include .dlt directory for educational use)
+*.key
+*.pem
+
+# -----------------------------
+# Data & Artifacts
+# -----------------------------
+data/
+*.csv
+*.tsv
+*.json
+*.parquet
+*.db
+*.duckdb
+*.sqlite
+.dlt/
+.dlt_cache/
+.cache/
+__output__/
+
+# -----------------------------
+# Logs & Misc
+# -----------------------------
+*.log
+logs/
+*.pid
+*.bak
+*.tmp
+*.old
