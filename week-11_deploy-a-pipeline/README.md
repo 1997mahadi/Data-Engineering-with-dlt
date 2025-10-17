@@ -1,5 +1,4 @@
 
-````markdown
 # 🗓️ Week 11 — Deploy a Pipeline 🚀
 
 Welcome to **Week 11** of *Learning in Public with dlt*!
