@@ -1,26 +1,27 @@
 
+````markdown
 # 🗓️ Week 11 — Deploy a Pipeline 🚀
 
 Welcome to **Week 11** of *Learning in Public with dlt*!
 This week, we’ll learn how to make your data pipeline run automatically — even when your computer is off.
 
-You’ll learn how to:
-1️⃣ Deploy a pipeline using **GitHub Actions**
-2️⃣ Schedule and monitor it with **Apache Airflow**
-3️⃣ Handle **credentials** safely in both cases
+You’ll learn how to:  
+1️⃣ Deploy a pipeline using **GitHub Actions**  
+2️⃣ Schedule and monitor it with **Apache Airflow**  
+3️⃣ Handle **credentials** safely in both cases  
 
 ---
 
 ## 💡 Why Deploy?
 
-When you deploy, your pipeline runs on its own — daily, hourly, or weekly — without manual effort.
+When you deploy, your pipeline runs on its own — daily, hourly, or weekly — without manual effort.  
 That’s what turns a small script into a **production-ready workflow**.
 
 ---
 
 ## ⚙️ Part 1 — Deploy with GitHub Actions
 
-GitHub Actions lets you automate your workflow right inside GitHub.
+GitHub Actions lets you automate your workflow right inside GitHub.  
 It’s like a virtual computer that wakes up on schedule, runs your code, and shuts down again.
 
 ### 🪄 Steps
@@ -31,7 +32,7 @@ Make sure your pipeline runs on your machine:
 
 ```bash
 python your_pipeline.py
-```
+````
 
 #### 2️⃣ Generate a workflow
 
@@ -177,4 +178,4 @@ Next week: **Running in Production & Monitoring Pipelines Like a Pro.**
 
 📍 [View Repo → github.com/1997mahadi/Data-Engineering-with-dlt](https://github.com/1997mahadi/Data-Engineering-with-dlt/tree/main)
 
----
+```
